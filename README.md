@@ -1,5 +1,5 @@
 ##Live Demo
---Prueba la prueba el proyecto en linea
+--Prueba el proyecto en linea
 https://samescodev.com/
 
 # CRUD en Laravel y Frontend en Vue
