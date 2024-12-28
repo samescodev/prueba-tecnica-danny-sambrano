@@ -13,6 +13,9 @@ Este repositorio implementa un CRUD básico utilizando Laravel en el backend y V
 
 ---
 
+## Script de la base de datos (Laravel):
+1. El archivo database.sql se encuentra el script para poder crear la base de datos con sus tablas y relaciones
+2. El archivo datos_ejemplo.sql es un script que inserta datos de ejemplo a la base de datos este no es necesario ejecutarlo si no quieres los datos de ejemplo
 ## Configuración del Backend (Laravel)
 
 1. **Clonar el repositorio**:
