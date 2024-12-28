@@ -1,3 +1,4 @@
+-- Cambia el nombre si usas otra base de datos
 USE prueba_tecnica;
 
 -- Ingreso de datos de ejemplo de inicio

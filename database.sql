@@ -1,5 +1,8 @@
+-- Omite esto si ya tienes una base de datos 
 CREATE DATABASE IF NOT EXISTS prueba_tecnica;
 ALTER DATABASE prueba_tecnica CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+
+-- Cambia el nombre si usas otra base de datos
 USE prueba_tecnica;
 
 -- Creación de las tablas
