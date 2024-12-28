@@ -1,3 +1,7 @@
+##Live Demo
+--Prueba la prueba el proyecto en linea
+https://samescodev.com/
+
 # CRUD en Laravel y Frontend en Vue
 
 Este repositorio implementa un CRUD básico utilizando Laravel en el backend y Vue.js con Vite en el frontend. Este README proporciona instrucciones para configurar el entorno y ejecutar el proyecto.
