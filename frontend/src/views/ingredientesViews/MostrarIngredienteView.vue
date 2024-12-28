@@ -11,7 +11,7 @@
   const ingrediente = ref({
     categoria_ingrediente: [],
   });
-  const notFoundPastel = ref(false);
+  const notFoundIngrediente = ref(false);
   const loading = ref(true);
   const errores = ref({});
   const form = ref({
@@ -98,7 +98,7 @@
         form.value.fecha_vencimiento = ingrediente.value.fecha_vencimiento;
         form.value.id_categoria_ingrediente = ingrediente.value.id_categoria_ingrediente;
 
-        notFoundPastel.value = false;
+        notFoundIngrediente.value = false;
         loading.value = false;
         console.log('ingredientes', ingrediente.value.ingredientes);
         console.log(ingrediente.value);
@@ -108,7 +108,7 @@
           switch (error.response.status) {
             case 404:
               console.error('Pastel no encontrado.');
-              notFoundPastel.value = true;
+              notFoundIngrediente.value = true;
               break;
             case 500:
               console.error('Error interno del servidor.');
@@ -121,7 +121,7 @@
         } else {
           console.error('Ocurrió un error al realizar la solicitud:', error.message);
         }
-        notFoundPastel = true;
+        notFoundIngrediente = true;
       });
 
   });
@@ -133,7 +133,7 @@
         <Banner/>
         <div class="bg-gray-100  px-60 py-12">
             <div class="px-20 py-12 border border-gray-1 shadow-md p-4 flex flex-col justify-between leading-normal bg-white">
-            <dl v-if="notFoundPastel === false">
+            <dl v-if="notFoundIngrediente === false">
                 <dl v-if="loading === false">
                 <form @submit.prevent="enviarFormulario" class="bg-white">
                     <div class="flex item-center justify-between">
@@ -307,7 +307,7 @@
 
                 </dl>
             </dl>
-            <dl v-if="notFoundPastel">
+            <dl v-if="notFoundIngrediente">
             <main class="grid min-h-full place-items-center bg-white px-6 py-24 sm:py-32 lg:px-8">
             <div class="text-center">
                 <p class="text-base font-semibold text-indigo-600">404</p>
