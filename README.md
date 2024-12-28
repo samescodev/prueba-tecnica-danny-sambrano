@@ -63,7 +63,7 @@ Por defecto el backend estará disponible en `http://localhost:8000`.
 
 ## Configuración del Frontend (Vue + Vite)
 
-1. **Navegar al directorio del frontend**:
+1. **Abre otra terminal y navega al directorio del frontend**:
    ```bash
    cd frontend
    ```
