@@ -28,7 +28,7 @@ Este repositorio implementa un CRUD básico utilizando Laravel en el backend y V
    ```bash
    composer install
    ```
-
+ **Nota** si te da error esta parte vuelve a ejecutar el comando
 3. **Configurar el archivo `.env`** en la carpeta backend:
    - Copia el archivo de ejemplo o crea un archivo nuevo .env y compia lo que hay en .env.example:
      ```bash
