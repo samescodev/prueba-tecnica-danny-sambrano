@@ -73,20 +73,9 @@ Por defecto el backend estará disponible en `http://localhost:8000`.
    npm install
    ```
 
-3. **Configurar variables de entorno**:
-   - Crea un archivo `.env` en el directorio `frontend`.
-   - Configura la URL del backend:
-     ```env
-     VITE_API_URL=http://localhost:8000/
-     ```
-
-4. **Iniciar el servidor de desarrollo**:
+3. **Iniciar el servidor de desarrollo**:
    ```bash
    npm run dev
-   ```
-   o si utilizas Yarn:
-   ```bash
-   yarn dev
    ```
 
 El frontend estará disponible en `http://localhost:8080`.
