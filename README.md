@@ -75,7 +75,7 @@ Por defecto el backend estará disponible en `http://localhost:8000`.
 
 3. **Iniciar el servidor de desarrollo**:
    ```bash
-   npm run dev
+   npm run serve
    ```
 
 El frontend estará disponible en `http://localhost:8080`.
@@ -130,9 +130,6 @@ En el directorio `frontend/src/views`, los principales vistas son:
 ### Frontend (Vue):
 
 - **`npm run serve`**: Inicia el servidor de desarrollo.
-- **`npm run dev`**: Inicia el servidor de desarrollo.
-- **`npm run build`**: Compila la aplicación para producción.
-- **`npm run lint`**: Analiza el código en busca de problemas.
 
 ---
 
